@@ -1,0 +1,14 @@
+Create Virtual enviroment
+conda create -n hopeai python=3.14 
+Conda activate hopeai
+conda install numpy pandas matplotlib scikit-learn
+
+pip install xgboost
+
+conda install jupyter notebook
+
+conda list
+
+pip freeze > requirements.txt
+
+conda env export --no-builds > environment.yml
